@@ -86,12 +86,12 @@
 
 - (void)networkContextDidConnect:(LFXNetworkContext *)networkContext
 {
-	[self.clientObserverProxy client:self networkContextDidConnect:networkContext];
+    [self.clientObserverProxy client:self didAddNetworkContext:networkContext];
 }
 
 - (void)networkContextDidDisconnect:(LFXNetworkContext *)networkContext
 {
-	[self.clientObserverProxy client:self networkContextDidDisconnect:networkContext];
+    [self.clientObserverProxy client:self didRemoveNetworkContext:networkContext];
 }
 
 @end

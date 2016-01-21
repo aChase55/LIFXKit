@@ -10,8 +10,8 @@
 
 @implementation LFXMessageDeviceSetSite
 
-+ (Class)payloadClass
-{
+@dynamic payload;
++ (Class)payloadClass{
 	return [LXProtocolDeviceSetSite class];
 }
 
@@ -27,8 +27,8 @@
 
 @implementation LFXMessageDeviceStateSite
 
-+ (Class)payloadClass
-{
+@dynamic payload;
++ (Class)payloadClass{
 	return [LXProtocolDeviceStateSite class];
 }
 
@@ -44,8 +44,8 @@
 
 @implementation LFXMessageDeviceGetPanGateway
 
-+ (Class)payloadClass
-{
+@dynamic payload;
++ (Class)payloadClass{
 	return [LXProtocolDeviceGetPanGateway class];
 }
 
@@ -61,8 +61,8 @@
 
 @implementation LFXMessageDeviceSetPanGateway
 
-+ (Class)payloadClass
-{
+@dynamic payload;
++ (Class)payloadClass{
 	return [LXProtocolDeviceSetPanGateway class];
 }
 
@@ -78,8 +78,8 @@
 
 @implementation LFXMessageDeviceStatePanGateway
 
-+ (Class)payloadClass
-{
+@dynamic payload;
++ (Class)payloadClass{
 	return [LXProtocolDeviceStatePanGateway class];
 }
 
@@ -95,8 +95,8 @@
 
 @implementation LFXMessageDeviceGetTime
 
-+ (Class)payloadClass
-{
+@dynamic payload;
++ (Class)payloadClass{
 	return [LXProtocolDeviceGetTime class];
 }
 
@@ -112,8 +112,8 @@
 
 @implementation LFXMessageDeviceSetTime
 
-+ (Class)payloadClass
-{
+@dynamic payload;
++ (Class)payloadClass{
 	return [LXProtocolDeviceSetTime class];
 }
 
@@ -129,8 +129,8 @@
 
 @implementation LFXMessageDeviceStateTime
 
-+ (Class)payloadClass
-{
+@dynamic payload;
++ (Class)payloadClass{
 	return [LXProtocolDeviceStateTime class];
 }
 
@@ -146,8 +146,8 @@
 
 @implementation LFXMessageDeviceGetResetSwitch
 
-+ (Class)payloadClass
-{
+@dynamic payload;
++ (Class)payloadClass{
 	return [LXProtocolDeviceGetResetSwitch class];
 }
 
@@ -163,8 +163,8 @@
 
 @implementation LFXMessageDeviceStateResetSwitch
 
-+ (Class)payloadClass
-{
+@dynamic payload;
++ (Class)payloadClass{
 	return [LXProtocolDeviceStateResetSwitch class];
 }
 
@@ -180,8 +180,8 @@
 
 @implementation LFXMessageDeviceGetDummyLoad
 
-+ (Class)payloadClass
-{
+@dynamic payload;
++ (Class)payloadClass{
 	return [LXProtocolDeviceGetDummyLoad class];
 }
 
@@ -197,8 +197,8 @@
 
 @implementation LFXMessageDeviceSetDummyLoad
 
-+ (Class)payloadClass
-{
+@dynamic payload;
++ (Class)payloadClass{
 	return [LXProtocolDeviceSetDummyLoad class];
 }
 
@@ -214,8 +214,8 @@
 
 @implementation LFXMessageDeviceStateDummyLoad
 
-+ (Class)payloadClass
-{
+@dynamic payload;
++ (Class)payloadClass{
 	return [LXProtocolDeviceStateDummyLoad class];
 }
 
@@ -231,8 +231,8 @@
 
 @implementation LFXMessageDeviceGetMeshInfo
 
-+ (Class)payloadClass
-{
+@dynamic payload;
++ (Class)payloadClass{
 	return [LXProtocolDeviceGetMeshInfo class];
 }
 
@@ -248,8 +248,8 @@
 
 @implementation LFXMessageDeviceStateMeshInfo
 
-+ (Class)payloadClass
-{
+@dynamic payload;
++ (Class)payloadClass{
 	return [LXProtocolDeviceStateMeshInfo class];
 }
 
@@ -265,8 +265,8 @@
 
 @implementation LFXMessageDeviceGetMeshFirmware
 
-+ (Class)payloadClass
-{
+@dynamic payload;
++ (Class)payloadClass{
 	return [LXProtocolDeviceGetMeshFirmware class];
 }
 
@@ -282,8 +282,8 @@
 
 @implementation LFXMessageDeviceStateMeshFirmware
 
-+ (Class)payloadClass
-{
+@dynamic payload;
++ (Class)payloadClass{
 	return [LXProtocolDeviceStateMeshFirmware class];
 }
 
@@ -299,8 +299,8 @@
 
 @implementation LFXMessageDeviceGetWifiInfo
 
-+ (Class)payloadClass
-{
+@dynamic payload;
++ (Class)payloadClass{
 	return [LXProtocolDeviceGetWifiInfo class];
 }
 
@@ -316,8 +316,8 @@
 
 @implementation LFXMessageDeviceStateWifiInfo
 
-+ (Class)payloadClass
-{
+@dynamic payload;
++ (Class)payloadClass{
 	return [LXProtocolDeviceStateWifiInfo class];
 }
 
@@ -333,8 +333,8 @@
 
 @implementation LFXMessageDeviceGetWifiFirmware
 
-+ (Class)payloadClass
-{
+@dynamic payload;
++ (Class)payloadClass{
 	return [LXProtocolDeviceGetWifiFirmware class];
 }
 
@@ -350,8 +350,8 @@
 
 @implementation LFXMessageDeviceStateWifiFirmware
 
-+ (Class)payloadClass
-{
+@dynamic payload;
++ (Class)payloadClass{
 	return [LXProtocolDeviceStateWifiFirmware class];
 }
 
@@ -367,8 +367,8 @@
 
 @implementation LFXMessageDeviceGetPower
 
-+ (Class)payloadClass
-{
+@dynamic payload;
++ (Class)payloadClass{
 	return [LXProtocolDeviceGetPower class];
 }
 
@@ -384,8 +384,8 @@
 
 @implementation LFXMessageDeviceSetPower
 
-+ (Class)payloadClass
-{
+@dynamic payload;
++ (Class)payloadClass{
 	return [LXProtocolDeviceSetPower class];
 }
 
@@ -401,8 +401,8 @@
 
 @implementation LFXMessageDeviceStatePower
 
-+ (Class)payloadClass
-{
+@dynamic payload;
++ (Class)payloadClass{
 	return [LXProtocolDeviceStatePower class];
 }
 
@@ -418,8 +418,8 @@
 
 @implementation LFXMessageDeviceGetLabel
 
-+ (Class)payloadClass
-{
+@dynamic payload;
++ (Class)payloadClass{
 	return [LXProtocolDeviceGetLabel class];
 }
 
@@ -435,8 +435,8 @@
 
 @implementation LFXMessageDeviceSetLabel
 
-+ (Class)payloadClass
-{
+@dynamic payload;
++ (Class)payloadClass{
 	return [LXProtocolDeviceSetLabel class];
 }
 
@@ -452,8 +452,8 @@
 
 @implementation LFXMessageDeviceStateLabel
 
-+ (Class)payloadClass
-{
+@dynamic payload;
++ (Class)payloadClass{
 	return [LXProtocolDeviceStateLabel class];
 }
 
@@ -469,8 +469,8 @@
 
 @implementation LFXMessageDeviceGetTags
 
-+ (Class)payloadClass
-{
+@dynamic payload;
++ (Class)payloadClass{
 	return [LXProtocolDeviceGetTags class];
 }
 
@@ -486,8 +486,8 @@
 
 @implementation LFXMessageDeviceSetTags
 
-+ (Class)payloadClass
-{
+@dynamic payload;
++ (Class)payloadClass{
 	return [LXProtocolDeviceSetTags class];
 }
 
@@ -503,8 +503,8 @@
 
 @implementation LFXMessageDeviceStateTags
 
-+ (Class)payloadClass
-{
+@dynamic payload;
++ (Class)payloadClass{
 	return [LXProtocolDeviceStateTags class];
 }
 
@@ -520,8 +520,8 @@
 
 @implementation LFXMessageDeviceGetTagLabels
 
-+ (Class)payloadClass
-{
+@dynamic payload;
++ (Class)payloadClass{
 	return [LXProtocolDeviceGetTagLabels class];
 }
 
@@ -537,8 +537,8 @@
 
 @implementation LFXMessageDeviceSetTagLabels
 
-+ (Class)payloadClass
-{
+@dynamic payload;
++ (Class)payloadClass{
 	return [LXProtocolDeviceSetTagLabels class];
 }
 
@@ -554,8 +554,8 @@
 
 @implementation LFXMessageDeviceStateTagLabels
 
-+ (Class)payloadClass
-{
+@dynamic payload;
++ (Class)payloadClass{
 	return [LXProtocolDeviceStateTagLabels class];
 }
 
@@ -571,8 +571,8 @@
 
 @implementation LFXMessageDeviceGetVersion
 
-+ (Class)payloadClass
-{
+@dynamic payload;
++ (Class)payloadClass{
 	return [LXProtocolDeviceGetVersion class];
 }
 
@@ -588,8 +588,8 @@
 
 @implementation LFXMessageDeviceStateVersion
 
-+ (Class)payloadClass
-{
+@dynamic payload;
++ (Class)payloadClass{
 	return [LXProtocolDeviceStateVersion class];
 }
 
@@ -605,8 +605,8 @@
 
 @implementation LFXMessageDeviceGetInfo
 
-+ (Class)payloadClass
-{
+@dynamic payload;
++ (Class)payloadClass{
 	return [LXProtocolDeviceGetInfo class];
 }
 
@@ -622,8 +622,8 @@
 
 @implementation LFXMessageDeviceStateInfo
 
-+ (Class)payloadClass
-{
+@dynamic payload;
++ (Class)payloadClass{
 	return [LXProtocolDeviceStateInfo class];
 }
 
@@ -639,8 +639,8 @@
 
 @implementation LFXMessageDeviceGetMcuRailVoltage
 
-+ (Class)payloadClass
-{
+@dynamic payload;
++ (Class)payloadClass{
 	return [LXProtocolDeviceGetMcuRailVoltage class];
 }
 
@@ -656,8 +656,8 @@
 
 @implementation LFXMessageDeviceStateMcuRailVoltage
 
-+ (Class)payloadClass
-{
+@dynamic payload;
++ (Class)payloadClass{
 	return [LXProtocolDeviceStateMcuRailVoltage class];
 }
 
@@ -673,8 +673,8 @@
 
 @implementation LFXMessageDeviceSetFactoryTestMode
 
-+ (Class)payloadClass
-{
+@dynamic payload;
++ (Class)payloadClass{
 	return [LXProtocolDeviceSetFactoryTestMode class];
 }
 
@@ -690,8 +690,8 @@
 
 @implementation LFXMessageDeviceDisableFactoryTestMode
 
-+ (Class)payloadClass
-{
+@dynamic payload;
++ (Class)payloadClass{
 	return [LXProtocolDeviceDisableFactoryTestMode class];
 }
 
@@ -707,8 +707,8 @@
 
 @implementation LFXMessageDeviceStateFactoryTestMode
 
-+ (Class)payloadClass
-{
+@dynamic payload;
++ (Class)payloadClass{
 	return [LXProtocolDeviceStateFactoryTestMode class];
 }
 
@@ -724,8 +724,8 @@
 
 @implementation LFXMessageDeviceSetReboot
 
-+ (Class)payloadClass
-{
+@dynamic payload;
++ (Class)payloadClass{
 	return [LXProtocolDeviceSetReboot class];
 }
 
@@ -741,8 +741,8 @@
 
 @implementation LFXMessageDeviceStateReboot
 
-+ (Class)payloadClass
-{
+@dynamic payload;
++ (Class)payloadClass{
 	return [LXProtocolDeviceStateReboot class];
 }
 
@@ -758,8 +758,8 @@
 
 @implementation LFXMessageDeviceAcknowledgement
 
-+ (Class)payloadClass
-{
+@dynamic payload;
++ (Class)payloadClass{
 	return [LXProtocolDeviceAcknowledgement class];
 }
 
@@ -775,8 +775,8 @@
 
 @implementation LFXMessageLightGet
 
-+ (Class)payloadClass
-{
+@dynamic payload;
++ (Class)payloadClass{
 	return [LXProtocolLightGet class];
 }
 
@@ -792,8 +792,8 @@
 
 @implementation LFXMessageLightSetColor
 
-+ (Class)payloadClass
-{
+@dynamic payload;
++ (Class)payloadClass{
 	return [LXProtocolLightSetColor class];
 }
 
@@ -809,8 +809,8 @@
 
 @implementation LFXMessageLightSetWaveformOptional
 
-+ (Class)payloadClass
-{
+@dynamic payload;
++ (Class)payloadClass{
 	return [LXProtocolLightSetWaveformOptional class];
 }
 
@@ -826,8 +826,8 @@
 
 @implementation LFXMessageLightSetWaveform
 
-+ (Class)payloadClass
-{
+@dynamic payload;
++ (Class)payloadClass{
 	return [LXProtocolLightSetWaveform class];
 }
 
@@ -843,8 +843,8 @@
 
 @implementation LFXMessageLightGetPower
 
-+ (Class)payloadClass
-{
+@dynamic payload;
++ (Class)payloadClass{
 	return [LXProtocolLightGetPower class];
 }
 
@@ -860,8 +860,8 @@
 
 @implementation LFXMessageLightSetPower
 
-+ (Class)payloadClass
-{
+@dynamic payload;
++ (Class)payloadClass{
 	return [LXProtocolLightSetPower class];
 }
 
@@ -877,8 +877,8 @@
 
 @implementation LFXMessageLightStatePower
 
-+ (Class)payloadClass
-{
+@dynamic payload;
++ (Class)payloadClass{
 	return [LXProtocolLightStatePower class];
 }
 
@@ -894,8 +894,8 @@
 
 @implementation LFXMessageLightSetSimpleEvent
 
-+ (Class)payloadClass
-{
+@dynamic payload;
++ (Class)payloadClass{
 	return [LXProtocolLightSetSimpleEvent class];
 }
 
@@ -911,8 +911,8 @@
 
 @implementation LFXMessageLightGetSimpleEvent
 
-+ (Class)payloadClass
-{
+@dynamic payload;
++ (Class)payloadClass{
 	return [LXProtocolLightGetSimpleEvent class];
 }
 
@@ -928,8 +928,8 @@
 
 @implementation LFXMessageLightStateSimpleEvent
 
-+ (Class)payloadClass
-{
+@dynamic payload;
++ (Class)payloadClass{
 	return [LXProtocolLightStateSimpleEvent class];
 }
 
@@ -945,8 +945,8 @@
 
 @implementation LFXMessageLightSetDimAbsolute
 
-+ (Class)payloadClass
-{
+@dynamic payload;
++ (Class)payloadClass{
 	return [LXProtocolLightSetDimAbsolute class];
 }
 
@@ -962,8 +962,8 @@
 
 @implementation LFXMessageLightSetDimRelative
 
-+ (Class)payloadClass
-{
+@dynamic payload;
++ (Class)payloadClass{
 	return [LXProtocolLightSetDimRelative class];
 }
 
@@ -979,8 +979,8 @@
 
 @implementation LFXMessageLightSetRgbw
 
-+ (Class)payloadClass
-{
+@dynamic payload;
++ (Class)payloadClass{
 	return [LXProtocolLightSetRgbw class];
 }
 
@@ -996,8 +996,8 @@
 
 @implementation LFXMessageLightState
 
-+ (Class)payloadClass
-{
+@dynamic payload;
++ (Class)payloadClass{
 	return [LXProtocolLightState class];
 }
 
@@ -1013,8 +1013,8 @@
 
 @implementation LFXMessageLightGetRailVoltage
 
-+ (Class)payloadClass
-{
+@dynamic payload;
++ (Class)payloadClass{
 	return [LXProtocolLightGetRailVoltage class];
 }
 
@@ -1030,8 +1030,8 @@
 
 @implementation LFXMessageLightStateRailVoltage
 
-+ (Class)payloadClass
-{
+@dynamic payload;
++ (Class)payloadClass{
 	return [LXProtocolLightStateRailVoltage class];
 }
 
@@ -1047,8 +1047,8 @@
 
 @implementation LFXMessageLightGetTemperature
 
-+ (Class)payloadClass
-{
+@dynamic payload;
++ (Class)payloadClass{
 	return [LXProtocolLightGetTemperature class];
 }
 
@@ -1064,8 +1064,8 @@
 
 @implementation LFXMessageLightStateTemperature
 
-+ (Class)payloadClass
-{
+@dynamic payload;
++ (Class)payloadClass{
 	return [LXProtocolLightStateTemperature class];
 }
 
@@ -1081,8 +1081,8 @@
 
 @implementation LFXMessageLightSetCalibrationCoefficients
 
-+ (Class)payloadClass
-{
+@dynamic payload;
++ (Class)payloadClass{
 	return [LXProtocolLightSetCalibrationCoefficients class];
 }
 
@@ -1098,8 +1098,8 @@
 
 @implementation LFXMessageWanSetAuthKey
 
-+ (Class)payloadClass
-{
+@dynamic payload;
++ (Class)payloadClass{
 	return [LXProtocolWanSetAuthKey class];
 }
 
@@ -1115,8 +1115,8 @@
 
 @implementation LFXMessageWanGetAuthKey
 
-+ (Class)payloadClass
-{
+@dynamic payload;
++ (Class)payloadClass{
 	return [LXProtocolWanGetAuthKey class];
 }
 
@@ -1132,8 +1132,8 @@
 
 @implementation LFXMessageWanStateAuthKey
 
-+ (Class)payloadClass
-{
+@dynamic payload;
++ (Class)payloadClass{
 	return [LXProtocolWanStateAuthKey class];
 }
 
@@ -1149,8 +1149,8 @@
 
 @implementation LFXMessageWanGet
 
-+ (Class)payloadClass
-{
+@dynamic payload;
++ (Class)payloadClass{
 	return [LXProtocolWanGet class];
 }
 
@@ -1166,8 +1166,8 @@
 
 @implementation LFXMessageWanSet
 
-+ (Class)payloadClass
-{
+@dynamic payload;
++ (Class)payloadClass{
 	return [LXProtocolWanSet class];
 }
 
@@ -1183,8 +1183,8 @@
 
 @implementation LFXMessageWanState
 
-+ (Class)payloadClass
-{
+@dynamic payload;
++ (Class)payloadClass{
 	return [LXProtocolWanState class];
 }
 
@@ -1200,8 +1200,8 @@
 
 @implementation LFXMessageWanSetKeepAlive
 
-+ (Class)payloadClass
-{
+@dynamic payload;
++ (Class)payloadClass{
 	return [LXProtocolWanSetKeepAlive class];
 }
 
@@ -1217,8 +1217,8 @@
 
 @implementation LFXMessageWanStateKeepAlive
 
-+ (Class)payloadClass
-{
+@dynamic payload;
++ (Class)payloadClass{
 	return [LXProtocolWanStateKeepAlive class];
 }
 
@@ -1234,8 +1234,8 @@
 
 @implementation LFXMessageWanSetHost
 
-+ (Class)payloadClass
-{
+@dynamic payload;
++ (Class)payloadClass{
 	return [LXProtocolWanSetHost class];
 }
 
@@ -1251,8 +1251,8 @@
 
 @implementation LFXMessageWanGetHost
 
-+ (Class)payloadClass
-{
+@dynamic payload;
++ (Class)payloadClass{
 	return [LXProtocolWanGetHost class];
 }
 
@@ -1268,8 +1268,8 @@
 
 @implementation LFXMessageWanStateHost
 
-+ (Class)payloadClass
-{
+@dynamic payload;
++ (Class)payloadClass{
 	return [LXProtocolWanStateHost class];
 }
 
@@ -1285,8 +1285,8 @@
 
 @implementation LFXMessageWifiGet
 
-+ (Class)payloadClass
-{
+@dynamic payload;
++ (Class)payloadClass{
 	return [LXProtocolWifiGet class];
 }
 
@@ -1302,8 +1302,8 @@
 
 @implementation LFXMessageWifiSet
 
-+ (Class)payloadClass
-{
+@dynamic payload;
++ (Class)payloadClass{
 	return [LXProtocolWifiSet class];
 }
 
@@ -1319,8 +1319,8 @@
 
 @implementation LFXMessageWifiState
 
-+ (Class)payloadClass
-{
+@dynamic payload;
++ (Class)payloadClass{
 	return [LXProtocolWifiState class];
 }
 
@@ -1336,8 +1336,8 @@
 
 @implementation LFXMessageWifiGetAccessPoints
 
-+ (Class)payloadClass
-{
+@dynamic payload;
++ (Class)payloadClass{
 	return [LXProtocolWifiGetAccessPoints class];
 }
 
@@ -1353,8 +1353,8 @@
 
 @implementation LFXMessageWifiStateAccessPoints
 
-+ (Class)payloadClass
-{
+@dynamic payload;
++ (Class)payloadClass{
 	return [LXProtocolWifiStateAccessPoints class];
 }
 
@@ -1370,8 +1370,8 @@
 
 @implementation LFXMessageWifiGetAccessPoint
 
-+ (Class)payloadClass
-{
+@dynamic payload;
++ (Class)payloadClass{
 	return [LXProtocolWifiGetAccessPoint class];
 }
 
@@ -1387,8 +1387,8 @@
 
 @implementation LFXMessageWifiSetAccessPoint
 
-+ (Class)payloadClass
-{
+@dynamic payload;
++ (Class)payloadClass{
 	return [LXProtocolWifiSetAccessPoint class];
 }
 
@@ -1404,8 +1404,8 @@
 
 @implementation LFXMessageWifiStateAccessPoint
 
-+ (Class)payloadClass
-{
+@dynamic payload;
++ (Class)payloadClass{
 	return [LXProtocolWifiStateAccessPoint class];
 }
 
@@ -1421,8 +1421,8 @@
 
 @implementation LFXMessageWifiSetAccessPointBroadcast
 
-+ (Class)payloadClass
-{
+@dynamic payload;
++ (Class)payloadClass{
 	return [LXProtocolWifiSetAccessPointBroadcast class];
 }
 
@@ -1438,8 +1438,8 @@
 
 @implementation LFXMessageSensorGetAmbientLight
 
-+ (Class)payloadClass
-{
+@dynamic payload;
++ (Class)payloadClass{
 	return [LXProtocolSensorGetAmbientLight class];
 }
 
@@ -1455,8 +1455,8 @@
 
 @implementation LFXMessageSensorStateAmbientLight
 
-+ (Class)payloadClass
-{
+@dynamic payload;
++ (Class)payloadClass{
 	return [LXProtocolSensorStateAmbientLight class];
 }
 
@@ -1472,8 +1472,8 @@
 
 @implementation LFXMessageSensorGetDimmerVoltage
 
-+ (Class)payloadClass
-{
+@dynamic payload;
++ (Class)payloadClass{
 	return [LXProtocolSensorGetDimmerVoltage class];
 }
 
@@ -1489,8 +1489,8 @@
 
 @implementation LFXMessageSensorStateDimmerVoltage
 
-+ (Class)payloadClass
-{
+@dynamic payload;
++ (Class)payloadClass{
 	return [LXProtocolSensorStateDimmerVoltage class];
 }
 
